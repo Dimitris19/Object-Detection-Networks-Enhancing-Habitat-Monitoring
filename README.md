@@ -1,3 +1,3 @@
-# Unlocking Flow–Habitat Relationships in Mountain Rivers Using Object Detection and Hydrodynamic Simulation.
+### Unlocking Flow–Habitat Relationships in Mountain Rivers Using Object Detection and Hydrodynamic Simulation.
 
 The dataset in this study is composed of 144 images, with visually detected fish manually annotated. Annotations are defined by the coordinates of the bounding boxes. In this framework, both a YOLOv8 model and a Faster-RCNN are trained for 100 epochs with a batch size of 16. We used K = 5 different partitions of the dataset, conducting an equal number of experiments for each. In our experimental setup, the dataset was divided into three subsets of training, validation and test data with the proportions of 60%, 20% and 20% respectively. For YOLO, an Adam optimizer was used with a learning rate of 10−3 while for Faster RCNN, the AdamW optimizer with a learning rate of 10−3 yielded the best results. 
